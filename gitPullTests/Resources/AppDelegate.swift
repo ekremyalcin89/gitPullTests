@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  gitPullTests
 //
-//  Created by Tayyip on 26.12.2022.
+//  Created by Ekrem on 26.12.2022.
 //
 
 import UIKit

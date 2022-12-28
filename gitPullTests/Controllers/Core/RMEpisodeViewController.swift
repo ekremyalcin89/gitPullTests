@@ -13,7 +13,7 @@ class RMEpisodeViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .systemBackground
-        title = "episodes"
+        title = "Episodes"
     }
     
 

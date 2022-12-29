@@ -2,4 +2,4 @@
 test
 
 
-navigation bar and segues added
+* navigation bar and segues added

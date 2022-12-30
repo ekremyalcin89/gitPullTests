@@ -13,3 +13,4 @@ import Foundation
     case episode
     
 }
+//git remote add origin https://https://github.com/ekremyalcin89/gitPullTests.git

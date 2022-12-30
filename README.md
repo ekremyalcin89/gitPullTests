@@ -3,5 +3,5 @@ test
 
 made with
 
-*MVVM Architecture
+* MVVM Architecture
 * Navigation Bar 

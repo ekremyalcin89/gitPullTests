@@ -1,5 +1,6 @@
 # gitPullTests
 test
 
-
-* navigation bar and segues added
+made with
+*MVVM Architecture
+* Navigation Bar 

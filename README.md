@@ -1,5 +1,5 @@
-# gitPullTests
-test
+# Rick And Morty Database APP
+One of my favorite show app  with rick and morty data api 
 
 made with
 

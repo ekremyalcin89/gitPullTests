@@ -5,5 +5,7 @@ made with
 
 * MVVM Architecture
 * Navigation Bar 
+* Collection View Flow Layout
 * Tab Bar
 * Rick and Morty API
+* Activity Indicator View

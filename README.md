@@ -8,4 +8,4 @@ Made with,
 * Collection View Flow Layout
 * Tab Bar
 * Rick and Morty API
-* Activity Indicator View
+* Activity Indicator 

@@ -9,3 +9,4 @@ Made with,
 * Tab Bar
 * Rick and Morty API
 * Activity Indicator 
+* UICollection Reusable Views

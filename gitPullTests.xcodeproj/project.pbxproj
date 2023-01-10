@@ -32,6 +32,10 @@
 		E1A279502959C5B1001C64DB /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2794F2959C5B1001C64DB /* RMTabBarController.swift */; };
 		E1A279552959C5B4001C64DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A279542959C5B4001C64DB /* Assets.xcassets */; };
 		E1A279582959C5B4001C64DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A279562959C5B4001C64DB /* LaunchScreen.storyboard */; };
+		E1B33458296D87F60041D40E /* RMCharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B33457296D87F60041D40E /* RMCharacterDetailViewController.swift */; };
+		E1B3345A296D88EF0041D40E /* RMCharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B33459296D88EF0041D40E /* RMCharacterDetailView.swift */; };
+		E1B3345C296D89190041D40E /* RMCharacterDetailViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B3345B296D89190041D40E /* RMCharacterDetailViewViewModel.swift */; };
+		E1B3345E296DDA7E0041D40E /* RMFooterLoadingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B3345D296DDA7E0041D40E /* RMFooterLoadingCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +66,10 @@
 		E1A279542959C5B4001C64DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1A279572959C5B4001C64DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1A279592959C5B4001C64DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B33457296D87F60041D40E /* RMCharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailViewController.swift; sourceTree = "<group>"; };
+		E1B33459296D88EF0041D40E /* RMCharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailView.swift; sourceTree = "<group>"; };
+		E1B3345B296D89190041D40E /* RMCharacterDetailViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailViewViewModel.swift; sourceTree = "<group>"; };
+		E1B3345D296DDA7E0041D40E /* RMFooterLoadingCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMFooterLoadingCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,7 @@
 		E12B654C295C571100F6150F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E1B33456296D877D0041D40E /* Other */,
 				E12B6559295C5A5F00F6150F /* Core */,
 			);
 			path = Controllers;
@@ -97,6 +106,8 @@
 			children = (
 				E19DFCD52965D04B00C77D47 /* RMCharacterListView.swift */,
 				E1989F18296742AC000286AA /* RMCharacterCollectionViewCell.swift */,
+				E1B33459296D88EF0041D40E /* RMCharacterDetailView.swift */,
+				E1B3345D296DDA7E0041D40E /* RMFooterLoadingCollectionReusableView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -106,6 +117,7 @@
 			children = (
 				E19DFCD32965CF9D00C77D47 /* RMCharacterListViewViewModel.swift */,
 				E1691DA8296C6EF300E0EFF4 /* RMCharacterCollectionViewCellViewModel.swift */,
+				E1B3345B296D89190041D40E /* RMCharacterDetailViewViewModel.swift */,
 			);
 			path = viewModels;
 			sourceTree = "<group>";
@@ -204,6 +216,14 @@
 			path = gitPullTests;
 			sourceTree = "<group>";
 		};
+		E1B33456296D877D0041D40E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E1B33457296D87F60041D40E /* RMCharacterDetailViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -275,11 +295,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17BA0B1295F11A000ED55BC /* RMOrigin.swift in Sources */,
+				E1B3345C296D89190041D40E /* RMCharacterDetailViewViewModel.swift in Sources */,
 				E17BA0B3295F125300ED55BC /* RMSingleLocation.swift in Sources */,
 				E19DFCD62965D04B00C77D47 /* RMCharacterListView.swift in Sources */,
 				E19DFCD22965B4BA00C77D47 /* RMGetAllCharactersResponse.swift in Sources */,
 				E17BA0B5295F13C000ED55BC /* RMCharacterStatus.swift in Sources */,
 				E17BA0B7295F146A00ED55BC /* RMCharacterGender.swift in Sources */,
+				E1B33458296D87F60041D40E /* RMCharacterDetailViewController.swift in Sources */,
+				E1B3345E296DDA7E0041D40E /* RMFooterLoadingCollectionReusableView.swift in Sources */,
 				E195766D295C648C004D9AA5 /* RMLocationViewController.swift in Sources */,
 				E12B6558295C59EF00F6150F /* RMEpisode.swift in Sources */,
 				E1A279502959C5B1001C64DB /* RMTabBarController.swift in Sources */,
@@ -297,6 +320,7 @@
 				E17DF2FD295EFB88006C1B4D /* RMRequest.swift in Sources */,
 				E12B655B295C5A8400F6150F /* RMCharacterViewController.swift in Sources */,
 				E19DFCD42965CF9D00C77D47 /* RMCharacterListViewViewModel.swift in Sources */,
+				E1B3345A296D88EF0041D40E /* RMCharacterDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,6 +36,7 @@
 		E1B3345A296D88EF0041D40E /* RMCharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B33459296D88EF0041D40E /* RMCharacterDetailView.swift */; };
 		E1B3345C296D89190041D40E /* RMCharacterDetailViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B3345B296D89190041D40E /* RMCharacterDetailViewViewModel.swift */; };
 		E1B3345E296DDA7E0041D40E /* RMFooterLoadingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B3345D296DDA7E0041D40E /* RMFooterLoadingCollectionReusableView.swift */; };
+		E1DCE527297176BD00BC1045 /* RMImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCE526297176BD00BC1045 /* RMImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		E1B33459296D88EF0041D40E /* RMCharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailView.swift; sourceTree = "<group>"; };
 		E1B3345B296D89190041D40E /* RMCharacterDetailViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailViewViewModel.swift; sourceTree = "<group>"; };
 		E1B3345D296DDA7E0041D40E /* RMFooterLoadingCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMFooterLoadingCollectionReusableView.swift; sourceTree = "<group>"; };
+		E1DCE526297176BD00BC1045 /* RMImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		E12B6551295C576100F6150F /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				E1DCE526297176BD00BC1045 /* RMImageLoader.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			files = (
 				E17BA0B1295F11A000ED55BC /* RMOrigin.swift in Sources */,
 				E1B3345C296D89190041D40E /* RMCharacterDetailViewViewModel.swift in Sources */,
+				E1DCE527297176BD00BC1045 /* RMImageLoader.swift in Sources */,
 				E17BA0B3295F125300ED55BC /* RMSingleLocation.swift in Sources */,
 				E19DFCD62965D04B00C77D47 /* RMCharacterListView.swift in Sources */,
 				E19DFCD22965B4BA00C77D47 /* RMGetAllCharactersResponse.swift in Sources */,

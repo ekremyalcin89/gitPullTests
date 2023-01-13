@@ -4,6 +4,7 @@ Get all info about characters, episodes and details .
 
 Made with,
 
+* UIKit
 * MVVM Architecture
 * Navigation Bar 
 * Collection View Flow Layout

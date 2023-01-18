@@ -13,3 +13,4 @@ Made with,
 * Activity Indicator 
 * UICollection Reusable Views
 * Orthogonal Scrolling Behavior
+* Date Formatter

@@ -1,13 +1,13 @@
 //
-//  RMGetAllCharactersResponse.swift
+//  FileRMGetAllEpisodesResponse.swift
 //  gitPullTests
 //
-//  Created by Ekrem on 4.01.2023.
+//  Created by Ekrem on 19.01.2023.
 //
 
 import Foundation
 
-struct RMGetAllCharactersResponse: Codable {
+struct RMGetAllEpisodesResponse: Codable {
     
     struct Info: Codable {
         let count: Int
@@ -17,9 +17,5 @@ struct RMGetAllCharactersResponse: Codable {
     }
     
     let info: Info
-    let results: [RMCharacter]
+    let results: [RMEpisode]
 }
-
-
-
-

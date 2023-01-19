@@ -11,12 +11,12 @@ import UIKit
 
 final class RMEpisodeDetailViewController: UIViewController {
 
-    private let url: URL?
+    private let viewModel: RMEpisodeDetailViewViewModel
     
     // INITS ---
     
     init(url: URL?) {
-        self.url = url
+        self.viewModel = .init(endpointUrl: url)
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -24,7 +24,7 @@ final class RMEpisodeDetailViewController: UIViewController {
         fatalError()
     }
     
-    //// LIFE CYCLES ---
+    //// LIFECYCLES ---
     
     override func viewDidLoad() {
         super.viewDidLoad()

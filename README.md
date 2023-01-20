@@ -9,8 +9,10 @@ Made with,
 * Navigation Bar 
 * Collection View Flow Layout
 * Tab Bar Items
+* Search Bar Items
 * Rick and Morty API
 * Activity Indicator 
 * UICollection Reusable Views
 * Orthogonal Scrolling Behavior
 * Date Formatter
+

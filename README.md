@@ -8,7 +8,7 @@ Made with,
 * MVVM Architecture
 * Navigation Bar 
 * Collection View Flow Layout
-* Tab Bar
+* Tab Bar Items
 * Rick and Morty API
 * Activity Indicator 
 * UICollection Reusable Views

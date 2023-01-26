@@ -60,7 +60,7 @@ final class RMEpisodeDetailViewController: UIViewController, RMEpisodeDetailView
         let vc = RMCharacterDetailViewController(viewModel: .init(character: character))
         vc.title = character.name
         vc.navigationItem.largeTitleDisplayMode = .never
-        navigationController?.pushViewController(vc, animated: true)
+        navigationController?.pushViewController(vc, animated: true)  
     }
     
     func didFetchEpisodeDetails() {

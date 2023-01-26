@@ -15,4 +15,7 @@ Made with,
 * UICollection Reusable Views
 * Orthogonal Scrolling Behavior
 * Date Formatter
+* SwiftUI View ( Setting view made with swiftUI )
+* UIHosting View
+* Cocoa Touch Class
 

@@ -17,5 +17,6 @@ Made with,
 * Date Formatter
 * SwiftUI View ( Setting view made with swiftUI )
 * UIHosting View
-* Cocoa Touch Class
+* Safari Services
+* Store Kit
 

@@ -5,6 +5,7 @@ Get all info about characters, episodes and details .
 Made with,
 
 * UIKit
+* Store Kit
 * MVVM Architecture
 * Navigation Bar 
 * Collection View Flow Layout
@@ -18,5 +19,5 @@ Made with,
 * SwiftUI View ( Setting view made with swiftUI )
 * UIHosting View
 * Safari Services
-* Store Kit
+
 

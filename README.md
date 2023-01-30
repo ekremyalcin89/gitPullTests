@@ -6,6 +6,7 @@ Made with,
 
 * UIKit
 * Store Kit
+* Safari Services
 * MVVM Architecture
 * Navigation Bar 
 * Collection View Flow Layout
@@ -18,6 +19,6 @@ Made with,
 * Date Formatter
 * SwiftUI View ( Setting view made with swiftUI )
 * UIHosting View
-* Safari Services
+
 
 

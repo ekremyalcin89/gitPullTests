@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E104911C298808530048E522 /* RMLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E104911B298808530048E522 /* RMLocationView.swift */; };
+		E104911E29881CDD0048E522 /* RMLocationViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E104911D29881CDD0048E522 /* RMLocationViewViewModel.swift */; };
 		E12545572976B05300871FCC /* RMCharacterPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12545562976B05300871FCC /* RMCharacterPhotoCollectionViewCell.swift */; };
 		E12545592976B07300871FCC /* RMCharacterInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12545582976B07300871FCC /* RMCharacterInfoCollectionViewCell.swift */; };
 		E125455B2976B08B00871FCC /* RMCharacterEpisodeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E125455A2976B08B00871FCC /* RMCharacterEpisodeCollectionViewCell.swift */; };
@@ -60,6 +62,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E104911B298808530048E522 /* RMLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationView.swift; sourceTree = "<group>"; };
+		E104911D29881CDD0048E522 /* RMLocationViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationViewViewModel.swift; sourceTree = "<group>"; };
 		E12545562976B05300871FCC /* RMCharacterPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		E12545582976B07300871FCC /* RMCharacterInfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterInfoCollectionViewCell.swift; sourceTree = "<group>"; };
 		E125455A2976B08B00871FCC /* RMCharacterEpisodeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterEpisodeCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -125,6 +129,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E104911A2988081D0048E522 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				E104911B298808530048E522 /* RMLocationView.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
 		E12545542976AFCD00871FCC /* CharacterDetails */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +189,7 @@
 		E12B654E295C572C00F6150F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E104911A2988081D0048E522 /* Location */,
 				E163599A2982A76900DC282F /* SwiftUI */,
 				E1B43BB5297FF895003F014C /* EpisodeDetails */,
 				E16D104C2979B8A700AEB6B9 /* Episode */,
@@ -196,6 +209,7 @@
 				E19DFCD32965CF9D00C77D47 /* RMCharacterListViewViewModel.swift */,
 				E1691DA8296C6EF300E0EFF4 /* RMCharacterCollectionViewCellViewModel.swift */,
 				E16D104F2979BE5800AEB6B9 /* RMEpisodeListViewViewModel.swift */,
+				E104911D29881CDD0048E522 /* RMLocationViewViewModel.swift */,
 			);
 			path = viewModels;
 			sourceTree = "<group>";
@@ -462,6 +476,7 @@
 				E17DF2FD295EFB88006C1B4D /* RMRequest.swift in Sources */,
 				E12B655B295C5A8400F6150F /* RMCharacterViewController.swift in Sources */,
 				E125455B2976B08B00871FCC /* RMCharacterEpisodeCollectionViewCell.swift in Sources */,
+				E104911C298808530048E522 /* RMLocationView.swift in Sources */,
 				E19DFCD42965CF9D00C77D47 /* RMCharacterListViewViewModel.swift in Sources */,
 				E16D10502979BE5800AEB6B9 /* RMEpisodeListViewViewModel.swift in Sources */,
 				E16D104729799E2200AEB6B9 /* RMAPICacheManager.swift in Sources */,
@@ -469,6 +484,7 @@
 				E1B43BB7297FF8E3003F014C /* RMEpisodeInfoCollectionViewCell.swift in Sources */,
 				E16D10492979A86000AEB6B9 /* RMEpisodeDetailViewViewModel.swift in Sources */,
 				E1B3345A296D88EF0041D40E /* RMCharacterDetailView.swift in Sources */,
+				E104911E29881CDD0048E522 /* RMLocationViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

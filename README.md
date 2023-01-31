@@ -7,12 +7,12 @@ Made with,
 * UIKit
 * Store Kit
 * Safari Services
+* Rick and Morty API
 * MVVM Architecture
 * Navigation Bar 
 * Collection View Flow Layout
 * Tab Bar Items
 * Search Bar Items
-* Rick and Morty API
 * Activity Indicator 
 * UICollection Reusable Views
 * Orthogonal Scrolling Behavior

@@ -12,9 +12,10 @@ Made with,
 * Navigation Bar 
 * Collection View Flow Layout
 * Tab Bar Items
-* Search Bar Items
+* Search Bar Item
 * Activity Indicator 
 * UICollection Reusable Views
+* UIBar button item
 * Orthogonal Scrolling Behavior
 * Date Formatter
 * SwiftUI View ( Setting view made with swiftUI )

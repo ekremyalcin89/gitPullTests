@@ -2,8 +2,9 @@
 One of my favorite show Rick and Morty Data Base  app  with rick and morty data API .
 Get all info about characters, episodes and details .
 
-Made with,
+Made without story board.
 
+Made with ;
 * UIKit
 * Store Kit
 * Safari Services

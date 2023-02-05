@@ -187,3 +187,5 @@ extension RMCharacterListViewViewModel: UIScrollViewDelegate {
         }
     }
 }
+
+

@@ -45,11 +45,11 @@ final class RMSearchinputViewViewModel {
     public var searchPlaceholderText: String {
         switch self.type {
         case .character:
-            return "Character Name"
+            return "Search Character Name"
         case .location:
-            return "Location Name"
+            return "Search Location Name"
         case .episode:
-            return "Episode Title"
+            return "Search Episode Title"
         }
         
     }

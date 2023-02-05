@@ -17,6 +17,7 @@ Made with ;
 * Activity Indicator 
 * UICollection Reusable Views
 * UIBar button item
+* UI Stack View
 * Orthogonal Scrolling Behavior
 * Date Formatter
 * SwiftUI View ( Setting view made with swiftUI )

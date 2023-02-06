@@ -391,11 +391,10 @@
 		E1B33456296D877D0041D40E /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				E1E078A42990F71700886EEA /* Search */,
 				E1B33457296D87F60041D40E /* RMCharacterDetailViewController.swift */,
 				E16D10442979589900AEB6B9 /* RMEpisodeDetailViewController.swift */,
-				E1A2650E297AB84F00990A92 /* RMSearchViewController.swift */,
 				E1EF029729897AD300B3E4EC /* RMLocationDetailViewController.swift */,
-				E1A4909729902FDE0050E86E /* RMSearchOptionPickerViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -416,6 +415,15 @@
 				E1B43BB9297FF936003F014C /* RMEpisodeInfoCollectionViewCellViewModel.swift */,
 			);
 			path = EpisodeDetail;
+			sourceTree = "<group>";
+		};
+		E1E078A42990F71700886EEA /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E1A2650E297AB84F00990A92 /* RMSearchViewController.swift */,
+				E1A4909729902FDE0050E86E /* RMSearchOptionPickerViewController.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		E1EF029429894C9200B3E4EC /* Locations */ = {

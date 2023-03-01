@@ -13,6 +13,7 @@ Made with ;
 * Navigation Bar 
 * Collection View Flow Layout
 * Tab Bar Items
+* UI Search bar
 * Search Bar Item
 * Activity Indicator 
 * UICollection Reusable Views

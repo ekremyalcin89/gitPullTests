@@ -6,21 +6,21 @@ Made without story board.
 
 Made with ;
 * UIKit
-* Store Kit
+* StoreKit
 * Safari Services
 * Rick and Morty API
 * MVVM Architecture
 * Navigation Bar 
 * Collection View Flow Layout
 * Tab Bar Items
-* UI Search bar
+* UISearch bar
 * Search Bar Item
 * Activity Indicator 
 * UICollection Reusable Views
-* UI Bar button item
-* UI Stack View
-* UI Picker View
-* UI Sheet View Presentation
+* UIBar button item
+* UIStack View
+* UIPicker View
+* UISheet View Presentation
 * Orthogonal Scrolling Behavior
 * Date Formatter
 * SwiftUI View ( Setting view made with swiftUI )
